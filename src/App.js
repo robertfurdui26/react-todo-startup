@@ -2,6 +2,7 @@ import React from "react";
 import ToDoItem from "./ToDoItem"; //am importat viitoarea 'pagina',unde creez todoitem
 import "./style.css"; //import style pt pagina mea
 
+// Test commit
 function App() {
   return (
     <div className="todo-loist">
