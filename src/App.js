@@ -1,9 +1,8 @@
-import React from 'react';
-import ToDoItem from './ToDoItem';
-import todoData from './todoData';
-import './style.css';
+import React from "react";
+import ToDoItem from "./ToDoItem";
+import todoData from "./todoData";
+import "./style.css";
 
-<<<<<<< HEAD
 class App extends React.Component {
   constructor() {
     super();
@@ -38,18 +37,5 @@ class App extends React.Component {
 
     return <div className="todo-list">{todoNew}</div>;
   }
-=======
-function App() {
-  const todoNew = todoData.map((item) => (
-    <ToDoItem key={item.id} item={item} />
-  ));
-
-  return (
-    <div className='todo-list'>
-      {todoNew}
-      <img src='./images/logo.svg' style={{ width: '40px', height: '40px' }} />
-    </div>
-  );
->>>>>>> e3be09b80ecafc6c9cbf5bd523a454b59633b2ae
 }
 export default App;
